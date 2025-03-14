@@ -1,0 +1,11 @@
+students = {
+    "Aleksandr": {"age": 20,"course": "Математика"},
+    "Georgy": {"age": 22, "course": "Физика"},
+    "Daniil": {"age": 23, "course": "Биология"},
+    "Kirill ": {"age": 21, "course": "Информатика"},
+    "Oleg": {"age": 24, "course": "Философия"},
+    "Ruslan": {"age": 20, "course": "Химия"}
+}
+
+for name, info in students.items():
+    print(f"Name: {name}, Age: {info['age']}, Course: {info['course']}")
